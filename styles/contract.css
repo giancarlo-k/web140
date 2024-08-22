@@ -1,6 +1,26 @@
 body {
   background: azure;
   font-family: 'Source Serif 4', serif;
-  padding: 0 2vh;
+  padding: 0vh 2vh 3vh 2vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  width: 140vh;
+  padding: 50px;
+}
+
+h1, h2 {
+  align-self: center;
+}
+
+.validationContainer {
+  display: flex;
+  width: 25vh;
+  justify-content: space-around;
 }
 
